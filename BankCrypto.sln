@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankCrypto", "BankCrypto\BankCrypto.csproj", "{04576EE1-00B9-4A4A-9D60-6A6841FAB24B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04576EE1-00B9-4A4A-9D60-6A6841FAB24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04576EE1-00B9-4A4A-9D60-6A6841FAB24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04576EE1-00B9-4A4A-9D60-6A6841FAB24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04576EE1-00B9-4A4A-9D60-6A6841FAB24B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8984E205-A5CA-48D2-95AB-4FC97F1FC45F}
+	EndGlobalSection
+EndGlobal
