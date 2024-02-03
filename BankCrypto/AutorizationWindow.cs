@@ -19,7 +19,25 @@ namespace BankCrypto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
+        }
+
+        private void UserNameTextBox_Enter(object sender, EventArgs e)
+        {
+            if (UserNameTextBox.Text == "UserName")
+            {
+                UserNameTextBox.Text = "";
+                UserNameTextBox.ForeColor = Color.Black;
+            }
+        }
+
+        private void PasswordTextBox_Enter(object sender, EventArgs e)
+        {
+            if (PasswordTextBox.Text == "Password")
+            {
+                PasswordTextBox.Text = "";
+                PasswordTextBox.ForeColor = Color.Black;
+            }
         }
     }
 }
