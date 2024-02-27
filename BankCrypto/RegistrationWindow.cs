@@ -12,16 +12,17 @@ namespace BankCrypto
 {
     public partial class RegistrationWindow : Form
     {
-        public RegistrationWindow()
+        protected AutorizationWindow autorizationWindow;
+        public RegistrationWindow(AutorizationWindow autorizationWindow)
         {
             InitializeComponent();
+            this.autorizationWindow = autorizationWindow;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            AutorizationWindow autorizationWindow = new AutorizationWindow();
-            autorizationWindow.Show();
+            this.autorizationWindow.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

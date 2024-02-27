@@ -80,10 +80,8 @@ namespace BankCrypto
         private void label1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            RegistrationWindow registrationWindow = new RegistrationWindow();
+            RegistrationWindow registrationWindow = new RegistrationWindow(this);
             registrationWindow.Show();
-
-            
         }
     }
 }
